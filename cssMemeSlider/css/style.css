@@ -120,3 +120,26 @@ body {
 #radio-button-5:checked ~ .slide-navigation > .circle-block > #circle-button-5{
     background-color: transparent;
 }
+
+@media (max-width: 650px) {
+    .slide-img {
+        max-height: 20em;
+    }
+
+    .slide-navigation {
+        order: 2;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .slide-block {
+        order: 1;
+    }
+
+    .slide-description-block {
+        order: 3;
+        width: 100%;
+        justify-content: flex-start;
+    }
+}
+
