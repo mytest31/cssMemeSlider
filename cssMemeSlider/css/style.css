@@ -104,4 +104,19 @@ body {
     margin-left: -400%;
 }
 
+.circle-block:hover > .circle-button {
+    background-color: white;
+    border-color: white;
+}
 
+.circle-block:active > .circle-button {
+    border-color: black;
+}
+
+#radio-button-1:checked ~ .slide-navigation > .circle-block > #circle-button-1,
+#radio-button-2:checked ~ .slide-navigation > .circle-block > #circle-button-2,
+#radio-button-3:checked ~ .slide-navigation > .circle-block > #circle-button-3,
+#radio-button-4:checked ~ .slide-navigation > .circle-block > #circle-button-4,
+#radio-button-5:checked ~ .slide-navigation > .circle-block > #circle-button-5{
+    background-color: transparent;
+}
