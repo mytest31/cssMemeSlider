@@ -32,3 +32,20 @@ body {
     max-height: 27em;
     border-radius: 1%;
 }
+
+.slide-description-block {
+    display: flex;
+    width: 65%;
+    height: 100%;
+    flex-direction: row;
+    overflow: hidden;
+    color: white;
+    margin: 1rem auto;
+}
+
+.slide-description-text {
+    flex-shrink: 0;
+    width: 100%;
+    transition: all 0.5s;
+}
+
